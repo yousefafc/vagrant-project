@@ -2,8 +2,8 @@
 Vagrantfile example using a YAML file to configure vms
 
 ## Defining Guest Machines
-configuration for the vm occurs in the ['guest_machine.yml'] file:
-'''yaml
+configuration for the vm occurs in the [`guest_machine.yml`] file:
+```yaml
 -name:
 -box:
 -cpus:
@@ -11,5 +11,5 @@ configuration for the vm occurs in the ['guest_machine.yml'] file:
 -private_ip:
 -script: (scripts run when vm boots up)
 -synced_folders:
-'''
+```
 
