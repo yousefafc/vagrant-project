@@ -1,0 +1,9 @@
+---
+- name: default
+  box: centos/7
+  cpus: 1
+  memory: 2048
+  private_ip: 10.0.10.10
+  script:
+  - script-1
+...
